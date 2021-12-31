@@ -1,0 +1,26 @@
+{
+  "contracts": {
+    "Box": "7e4f698e268ef4d550d2bd9a14085cc436a1c445",
+    "BoxV2": "bc28195daf23696e89a33f5593b68e423377716b",
+    "OpenZeppelin/openzeppelin-contracts@4.4.1/ERC1967Proxy": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "ProxyAdmin": "0d1631cc9a17d50a8eb074606f7dd85a09f4b252",
+    "TransparentUpgradeableProxy": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "tests": {
+    "tests/test_box_proxy_and_call.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "ff6a20418bf5bd3f3d3e2b63f22217b6ef533ba1",
+      "txhash": []
+    },
+    "tests/test_box_v2_ugrade.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "ecffe669a7107c0dae33795f174bbf3ee529828d",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
